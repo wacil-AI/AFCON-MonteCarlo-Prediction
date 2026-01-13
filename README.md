@@ -35,6 +35,7 @@ The prediction engine that simulates the AFCON bracket from the **Round of 16**.
 - **Elo (38%)**  & **FIFA (17%)**: Technical and historical ranking
 - **Market Value (23%)**: Squad depth and talent quality
 - **Win Rate (22%)**: Current momentum based on recent history (last 5 years)
+  
 ELO ratings: https://lnkd.in/esw4abxa
 FIFA ranking: https://lnkd.in/eNQ4ccxG
 Squad market values (Transfermarkt): https://lnkd.in/e3MYe6hB
