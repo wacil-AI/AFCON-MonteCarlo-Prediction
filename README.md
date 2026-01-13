@@ -5,7 +5,7 @@ Unlike standard simulators, this project **quantifies "luck"** using historical 
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 The project is built on the philosophy that football outcomes are a mix of **structural strength (stats)** and **stochastic noise (luck)**.
 
@@ -15,7 +15,7 @@ The project is built on the philosophy that football outcomes are a mix of **str
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ### 1) Data Mining & Luck Analysis (`Luck_rate.py`)
 
@@ -51,7 +51,7 @@ The prediction engine that simulates the AFCON bracket from the **Round of 16**.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 ```bash
@@ -84,7 +84,7 @@ Run Prediction:
 python predict_lucky_rate.py
 ```
 
-📈 Results Preview
+Results Preview
 
 The model outputs a detailed probability matrix for each team, from the Round of 16 through to the Final, helping identify dark horses versus statistical favorites based on bracket path.
 ```bash
