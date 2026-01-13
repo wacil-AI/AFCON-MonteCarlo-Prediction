@@ -32,9 +32,13 @@ This script interfaces with **StatsBomb Open Data** to establish a baseline for 
 The prediction engine that simulates the AFCON bracket from the **Round of 16**.
 
 #### Weighting System
-- **Elo (38%)** & **FIFA (17%)**: Technical and historical ranking
+- **Elo (38%)**  & **FIFA (17%)**: Technical and historical ranking
 - **Market Value (23%)**: Squad depth and talent quality
-- **Win Rate (22%)**: Current momentum based on recent history
+- **Win Rate (22%)**: Current momentum based on recent history (last 5 years)
+ELO ratings: https://lnkd.in/esw4abxa
+FIFA ranking: https://lnkd.in/eNQ4ccxG
+Squad market values (Transfermarkt): https://lnkd.in/e3MYe6hB
+International match results dataset: https://lnkd.in/ePrF-DqH
 
 #### Match Engine
 - Uses a **Poisson Distribution** where the **$\lambda$ (expected goals)** is adjusted by a **"Luck Shrinkage"** factor.
@@ -42,7 +46,7 @@ The prediction engine that simulates the AFCON bracket from the **Round of 16**.
 
 ---
 
-## 📊 Technical Features
+##  Technical Features
 
 - **Monte Carlo Simulation:** **10,000** runs to ensure statistical significance of probabilities.
 - **Robust Name Mapping:** Integrated cleaning tool to handle variations in country names  
